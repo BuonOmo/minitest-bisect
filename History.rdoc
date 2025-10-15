@@ -1,3 +1,13 @@
+=== 1.8.0 / 2023-07-06
+
+* 1 minor enhancement:
+
+  * Improve speed by stopping tests when a failure is found.
+
+* 1 bug fix:
+
+  * Allow usage of absolute paths for tests files.
+
 === 1.7.0 / 2023-07-06
 
 * 1 major enhancement:
@@ -110,4 +120,3 @@
 * 1 major enhancement
 
   * Birthday!
-
