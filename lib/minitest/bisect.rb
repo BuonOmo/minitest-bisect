@@ -128,6 +128,8 @@ class Minitest::Bisect
 
     system cmd.sub(/--server \d+/, "")
   ensure
+    puts "_—" * 100
+    puts "in bisect ensure block"
     Minitest::Server.stop
   end
 
